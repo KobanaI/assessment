@@ -12,13 +12,25 @@ button.onclick = () => {
   }
   //診断結果
   area.innerText = ' ';
-  const header = document.createElement('h3');
-  header.innerText = '診断結果';
-  area.appendChild(header);
-  //アンサー
-  const p = document.createElement('p');
+  const headerDid = document.createElement('div');
+  headerDid.innerText = '診断結果';
+  headerDid.setAttribute('class','card-header')
+
+  const bodyDid = document.createElement('div');
+  bodyDid.setAttribute('class','card-body');
+
+const p = document.createElement('p');
+  p.setAttribute('class','card-text');
   p.innerText = result;
-  area.appendChild(p);
+  bodyDid.appendChild(p);
+
+area.setAttribute('class','card');
+area.setAttribute('style','max-width: 700px');
+
+
+  area.appendChild(headerDid);
+  area.appendChild(bodyDid);
+
   //ツイートボタン
   tweet.innerText = ' ';
   const a = document.createElement('a');
