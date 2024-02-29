@@ -67,7 +67,7 @@ const asnwers = [
 '###userName###のいいところはあります。###userName###はよいです！',
 '###userName###のいいところはあります。###userName###はよいです！',
 '###userName###のいいところはあります。###userName###はよいです！',
-'###userName###のいいところはあります。###userName###はよいです！'];
+'###userName###のいいところはあります。思いやりありますです！'];
 
 function Assessment(userName){
   let moji_Code = 0
