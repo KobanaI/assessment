@@ -1,0 +1,16 @@
+body{
+  background-color:cornflowerblue;
+  color: aliceblue;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+button{
+  padding: 5px 20px;
+  background-color: blueviolet;
+  border-style: inset;
+  color: aliceblue;
+}
+input{
+  height: 20px;
+}
