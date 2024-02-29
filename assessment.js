@@ -61,7 +61,7 @@ const asnwers = [
 '###userName###のいいところはあります。###userName###はよいです！',
 '###userName###のいいところはあります。###userName###はよいです！',
 '###userName###のいいところはあります。###userName###はよいです！',
-'###userName###のいいところはあります。###userName###はよいです！',
+'###userName###のいいところはあります。###userName###はよいす！',
 '###userName###のいいところはあります。###userName###はよいです！',
 '###userName###のいいところはあります。###userName###はよいです！',
 '###userName###のいいところはあります。###userName###はよいです！',
